@@ -32,14 +32,16 @@
     border-radius: 16px;
     margin-bottom: 40px;
   
-    @include tablet {
+    @media screen and (min-width:768px) {
+        .donate-container{
       width: 335px;
       margin-bottom: 0;
-    }
+    }}
   
-    @include desktop {
+    @media screen and (min-width:1200px) {
+        .donate-container{
       width: 356;
-    }
+    }}
   }
   
   .donate-paragraph {
