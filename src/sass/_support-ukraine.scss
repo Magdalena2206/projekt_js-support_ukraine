@@ -146,6 +146,7 @@
     margin-top: 7px;
   }
   
+  
   .donate-block-arrow {
     display: flex;
     align-items: center;
@@ -154,7 +155,7 @@
   }
   
   .donate-arrow {
-    fill: var(--purple);
+    fill: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,7 +175,7 @@
   .donate-button-up {
     width: 32px;
     height: 32px;
-    background-color: var(--purple);
+    background-color: var(--white);
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -190,15 +191,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: rotate(180deg) scale(0.7);
-    width: 32px;
-    height: 32px;
+    // transform:  scale(0.7);
+    width: 20px;
+    height: 20px;
+    margin: auto;
   }
   
-  .donate-button-up:focus,
-  .donate-arrow-up:hover {
-    fill: var(--white-cat);
+  
+  .donate-button-up:hover,
+  .donate-arrow-up:focus {
+    background-color: #d0d0d0;
     border-radius: 50%;
+   
   }
   
   
