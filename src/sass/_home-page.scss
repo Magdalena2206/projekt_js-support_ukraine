@@ -1,0 +1,16 @@
+.home-page-wrapper {
+    padding-top: 104px;
+    @include tablet {
+      padding-top: 112px;
+    }
+  
+    @include desktop {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1440px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  
